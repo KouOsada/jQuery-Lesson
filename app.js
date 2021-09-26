@@ -41,7 +41,7 @@
 // });
 
 $(function(){
-  $('bg1').on('click', function(){
-    $('bg1').slideUp(2000);
+  $('.box1').on('click', function(){
+    $(this).slideUp(1500)
   });
 });
